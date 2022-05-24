@@ -1,0 +1,39 @@
+.header-container {
+    width: 100vw;
+    height: 10vh;
+    background-color: #EEEEEE;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    line-height: 10vh;
+}
+
+.logo {
+    font-family: 'Indie Flower';
+    font-size: 20px;
+    margin-left: 30px;
+    color: #00ADB5;
+}
+
+.search-container {
+    margin-right: 240px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search-container input {
+    color: rgba(0,0,0,0.5);
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    width: 180px;
+    transition: width 0.6s ease-in;
+}
+
+input:focus {
+    width: 240px;
+}
