@@ -23,17 +23,3 @@
     font-weight: 600;
 }
 
-.search-container input {
-    color: rgba(0,0,0,0.5);
-    margin-left: 20px;
-    padding: 8px;
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
-    width: 180px;
-    transition: width 0.6s ease-in;
-}
-
-input:focus {
-    width: 240px;
-}

@@ -1,5 +1,7 @@
-import React from 'react'
+
+import TextInput from '../TextInput/TextInput'
 import './styles.css'
+
 
 
 export default function Header() {
@@ -9,7 +11,7 @@ export default function Header() {
             <span className='logo'>myReactBlog</span>
             <div className='search-container'>
                 <label htmlFor="search-words">Search</label>
-                <input type="text" name="search-words" id="search-words" placeholder='Type your search'/>
+                <TextInput/>
             </div>
         </nav>
     </header>
