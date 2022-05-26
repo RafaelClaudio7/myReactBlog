@@ -6,4 +6,4 @@
 <img src="./figmaIdea.png" alt="Prototype image">
 <h6>Dependencies to this project</h6>
 <p>React 18 using create react app tool</p>
-<p>Axios to get the resolved json from JsonPlaceHolder API</p>
+<p>Using JsonPlaceHolder API to get posts data</p>
