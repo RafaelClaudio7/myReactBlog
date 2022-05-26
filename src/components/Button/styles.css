@@ -1,0 +1,21 @@
+.button-container {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 140px;
+    background-image: linear-gradient(to top right,#3FC1C9,#00ADB5);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button:disabled {
+    background-color: #888;
+    cursor: not-allowed;
+}
